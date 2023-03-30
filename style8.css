@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: aqua;
+    color: red;
+}
+
+#text1 {
+    position: relative;
+}
+
+#text5 {
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+#text2 {
+    position: relative;
+    left: 376px;
+    bottom: 25px;
+}
+
+#text3 {
+    position: relative;
+    top: 340px;
+}
+
+#text4 {
+    position: absolute;
+    left: 376px;
+    top: 376px;
+}
